@@ -1,4 +1,25 @@
-body {
-    background: blue;
-    color: tomato;
+/* cssnext */
+
+a:hover {
+    color: color(var(--color-sec) a(80%));
+}
+
+@media (768px <= width <= 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+:root {
+    --color-prim: #b22222;
+    --color-sec: steelblue;
+}
+
+h1 {
+    color: var(--color-prim);
+}
+
+.highlight {
+    background: var(--color-prim);
+    border: solid 1px var(--color-sec);
 }

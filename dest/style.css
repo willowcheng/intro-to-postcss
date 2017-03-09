@@ -1,4 +1,20 @@
-body {
-    background: blue;
-    color: tomato;
+/* cssnext */
+
+a:hover {
+    color: rgba(70, 130, 180, 0.8);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+h1 {
+    color: #b22222;
+}
+
+.highlight {
+    background: #b22222;
+    border: solid 1px steelblue;
 }

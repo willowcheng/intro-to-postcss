@@ -2,10 +2,11 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 
 // Plugins
+var cssnext = require('postcss-cssnext');
 
 gulp.task('css', function () {
     var precessors = [
-
+        cssnext
     ];
 
     return gulp.src('./src/*.css')
