@@ -7,7 +7,12 @@ var pxtorem = require('postcss-pxtorem');
 
 gulp.task('css', function () {
     var precessors = [
-        cssnext,
+        cssnext({
+            browsers: [
+                'last 2 versions',
+                'Firefox < 27'
+                ]
+        }),
         pxtorem({
             propWhiteList: [],
             mediaQuery: true

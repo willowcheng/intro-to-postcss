@@ -32,3 +32,11 @@ h1 {
     margin-bottom: 40px;
     letter-spacing: 1px;
 }
+
+/* autoprefixer */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+}
