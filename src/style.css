@@ -40,3 +40,22 @@ h1 {
     flex-direction: column;
     border: 10px;
 }
+
+/* SVG fragments */
+
+.icon-gear {
+    background: url(../svg/icons.svg#gear);
+}
+
+.icon-hammer {
+    background: url(../svg/icons.svg#hammer);
+}
+
+.icon-heart {
+    background: url(../svg/icons.svg#heart);
+}
+
+.icn {
+    width: 150px;
+    height: 150px;
+}
