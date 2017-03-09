@@ -5,6 +5,7 @@ var postcss = require('gulp-postcss');
 var cssnext = require('postcss-cssnext');
 var pxtorem = require('postcss-pxtorem');
 var svgFragments = require('postcss-svg-fragments');
+var cssnano = require('cssnano');
 
 gulp.task('css', function () {
     var precessors = [
@@ -18,7 +19,8 @@ gulp.task('css', function () {
             propWhiteList: [],
             mediaQuery: true
         }),
-        svgFragments
+        svgFragments,
+        cssnano
     ];
 
     return gulp.src('./src/*.css')
