@@ -23,3 +23,12 @@ h1 {
     background: var(--color-prim);
     border: solid 1px var(--color-sec);
 }
+
+/* pxtorem */
+
+h1 {
+    color: var(--color-prim);
+    font-size: 60px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}

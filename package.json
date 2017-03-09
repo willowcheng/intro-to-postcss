@@ -11,6 +11,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.3.0",
-    "postcss-cssnext": "^2.9.0"
+    "postcss-cssnext": "^2.9.0",
+    "postcss-pxtorem": "^4.0.0"
   }
 }

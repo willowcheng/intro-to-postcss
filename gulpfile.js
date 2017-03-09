@@ -3,10 +3,15 @@ var postcss = require('gulp-postcss');
 
 // Plugins
 var cssnext = require('postcss-cssnext');
+var pxtorem = require('postcss-pxtorem');
 
 gulp.task('css', function () {
     var precessors = [
-        cssnext
+        cssnext,
+        pxtorem({
+            propWhiteList: [],
+            mediaQuery: true
+        })
     ];
 
     return gulp.src('./src/*.css')
